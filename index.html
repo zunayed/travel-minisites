@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="/static/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <style>
+    body {
+        background-image: url("/static/background.png");
+    }
+
+    .card {
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    }
+
+    .card {
+      margin-top: 10px;
+      box-sizing: border-box;
+      border-radius: 2px;
+      background-clip: padding-box;
+    }
+    .card span.card-title {
+        color: #fff;
+        font-size: 35px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .card .card-image {
+      position: relative;
+      overflow: hidden;
+    }
+    .card .card-image img {
+      border-radius: 2px 2px 0 0;
+      background-clip: padding-box;
+      position: relative;
+      z-index: -1;
+    }
+    .card .card-image span.card-title {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 16px;
+    }
+
+	img:hover {
+		-webkit-filter: brightness(70%);
+		-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+		-o-transition: all 1s ease;
+		-ms-transition: all 1s ease;
+		transition: all 1s ease;
+	}
+
+    </style>
+
+</head>
+
+<body>
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="text-center page-header">Travel</h1>
+            </div>
+        </div>
+
+        <div class="row-fluid">
+            <div class="col-lg-4">
+                <div class="card">
+                    <a href="/italy.html">
+                        <div class="card-image">
+                            <img class="img-responsive" src="/static/img/DSC_3149.jpg">
+                            <span class="card-title">Italy</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card">
+                    <a href="/italy.html">
+                        <div class="card-image">
+                            <img class="img-responsive" src="/static/img/DSC_3145.jpg">
+                            <span class="card-title">Spain</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="col-lg-4">
+                <div class="card">
+                    <a href="/italy.html">
+                        <div class="card-image">
+                            <img class="img-responsive" src="/static/img/DSC_3426.jpg">
+                            <span class="card-title">Italy</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    <!-- /.container -->
+    </div>
+
+    <script src="/static/lib/jquery-1.12.2.min.js"></script>
+    <script src="/static/lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+<html>
